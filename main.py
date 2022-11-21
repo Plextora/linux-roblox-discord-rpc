@@ -5,40 +5,40 @@ import os
 
 start_time = time.time()
 client_id = "1044302023211884624"
-RPC = Presence(client_id)
-RPC.connect()
-otherProcessName = "robloxplayerbet"
-mainProcessName = "robloxplayerbeta"
+rpc = Presence(client_id)
+rpc.connect()
+other_process_name = "robloxplayerbet"
+main_process_name = "robloxplayerbeta"
 
 
-def StartPresence():
-    RPC.update(
+def start_presence():
+    rpc.update(
         large_image="robloxicon",
         large_text="ROBLOX Icon",
         start=start_time,
     )
 
 
-def IfRobloxRunning():
+def if_roblox_running():
     for proc in psutil.process_iter():
         try:
-            if mainProcessName.lower() in proc.name().lower():
+            if main_process_name.lower() in proc.name().lower():
                 return True
-            elif otherProcessName.lower() in proc.name().lower():
+            elif other_process_name.lower() in proc.name().lower():
                 return True
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             pass
     return False
 
 
-StartPresence()
+start_presence()
 
 print("Started presence!")
 
 while True:
-    if IfRobloxRunning():
-        StartPresence()
+    if if_roblox_running():
+        start_presence()
     else:
-        RPC.clear()
+        rpc.clear()
     time.sleep(1)
     print("Reloaded presence!")
