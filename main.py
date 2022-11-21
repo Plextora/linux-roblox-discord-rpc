@@ -40,5 +40,6 @@ while True:
         start_presence()
     else:
         rpc.clear()
+        start_time = time.time()  # reset the time elapsed field in rpc
     time.sleep(1)
     print("Reloaded presence!")
