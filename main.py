@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from pypresence import Presence
 import time
 import psutil
