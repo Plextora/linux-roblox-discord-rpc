@@ -1,0 +1,2 @@
+import pypresence
+import psutil
