@@ -2,6 +2,20 @@ from pypresence import Presence
 import time
 import psutil
 import os
+import platform
+
+if platform.system() != "Linux":
+    print(
+        "linux-roblox-discord-rpc is made for Linux (duh)! But it seems like you're running on a different OS."
+    )
+    print(
+        "linux-roblox-discord-rpc will (probably) not work at all for you, and you'll have absolutely ZERO support for any problems that come up!"
+    )
+    print("Do you still want to continue? (y/n)")
+    decision = input("")
+    if decision == "n":
+        os._exit(1)
+
 
 start_time = time.time()
 client_id = "1044302023211884624"
