@@ -2,7 +2,7 @@
 
 Discord RPC for [Grapejuice](https://gitlab.com/brinkervii/grapejuice) users.
 
-![Demo](https://s3.us-east-1.wasabisys.com/e-zimagehosting/6772311b-db7f-40a3-ac88-76533340acc8/75mi5gnw.png)
+![Demo](https://s3.us-east-1.wasabisys.com/e-zimagehosting/6772311b-db7f-40a3-ac88-76533340acc8/yov6dcoi.png)
 
 # How do I download this?
 
