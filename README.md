@@ -2,14 +2,14 @@
 
 Discord RPC for [Grapejuice](https://gitlab.com/brinkervii/grapejuice) users.
 
-![Demo](https://s3.us-east-1.wasabisys.com/e-zimagehosting/6772311b-db7f-40a3-ac88-76533340acc8/yov6dcoi.png)
+![Demo](https://s3.us-east-1.wasabisys.com/e-zimagehosting/6772311b-db7f-40a3-ac88-76533340acc8/fac9rkcy.png)
 
 # How do I download this?
 
 First, open up your terminal, clone the repository, and cd into the folder
 
 ```console
-git clone https://github.com/samuelolagunju/linux-roblox-discord-rpc.git && cd linux-roblox-discord-rpc
+git clone https://github.com/Plextora/linux-roblox-discord-rpc.git && cd linux-roblox-discord-rpc
 ```
 
 After that, install the required libraries and run it
